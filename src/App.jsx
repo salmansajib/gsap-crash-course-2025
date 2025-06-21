@@ -1,6 +1,7 @@
 import AnimatedLetters from "./components/AnimatedLetters";
 import GsapFrom from "./components/GsapFrom";
 import GsapFromTo from "./components/GsapFromTo";
+import GsapTimeline from "./components/GsapTimeline";
 import GsapTo from "./components/GsapTo";
 
 function App() {
@@ -9,7 +10,8 @@ function App() {
       <GsapTo />
       <GsapFrom />
       <GsapFromTo />
-      <AnimatedLetters text="Hello World" />
+      <GsapTimeline />
+      {/* <AnimatedLetters text="Hello World" /> */}
     </main>
   );
 }
