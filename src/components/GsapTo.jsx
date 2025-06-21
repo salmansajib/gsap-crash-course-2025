@@ -7,7 +7,7 @@ const GsapTo = () => {
 
   useGSAP(() => {
     gsap.to(purpleBoxRef.current, {
-      x: 450,
+      x: 250,
       repeat: -1,
       yoyo: true,
       rotate: 360,

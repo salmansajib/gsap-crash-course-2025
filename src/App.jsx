@@ -1,3 +1,4 @@
+import AnimatedLetters from "./components/AnimatedLetters";
 import GsapFrom from "./components/GsapFrom";
 import GsapFromTo from "./components/GsapFromTo";
 import GsapTo from "./components/GsapTo";
@@ -8,6 +9,7 @@ function App() {
       <GsapTo />
       <GsapFrom />
       <GsapFromTo />
+      <AnimatedLetters text="Hello World" />
     </main>
   );
 }
